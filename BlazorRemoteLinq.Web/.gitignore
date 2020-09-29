@@ -329,10 +329,3 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 /src/ApiGateway.API/appsettings.Development.json
-/BlazorRemoteLinq.Api/obj
-/BlazorRemoteLinq.Api/bin
-/BlazorRemoteLinq.Shared/obj
-/BlazorRemoteLinq.Shared/bin
-/BlazorRemoteLinq.Web/obj
-/BlazorRemoteLinq.Web/bin
-/.vs
