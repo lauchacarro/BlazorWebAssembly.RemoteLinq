@@ -1,0 +1,46 @@
+﻿@page "/SalesReport"
+@inject IOrderService OrderService
+
+<h3>SalesReport</h3>
+
+@if (model == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+                <th>Total By Product</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var productReport in model.ProductSalesReports)
+            {
+                <tr>
+                    <td>@productReport.ProductName</td>
+                    <td>@productReport.CategoryName</td>
+                    <td>@productReport.UnitPrice</td>
+                    <td>@productReport.Quantity</td>
+                    <td>$@productReport.Total</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <p>
+        Total: $@model.Total
+    </p>
+}
+@code {
+    private BlazorRemoteLinq.Shared.Models.SalesReportModel model;
+
+    protected override async Task OnInitializedAsync()
+    {
+        model = await OrderService.GetSalesReport();
+    }
+}

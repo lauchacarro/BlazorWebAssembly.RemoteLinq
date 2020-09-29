@@ -1,0 +1,9 @@
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\bin\Debug\netstandard2.0\BlazorRemoteLinq.Shared.deps.json
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\bin\Debug\netstandard2.0\BlazorRemoteLinq.Shared.dll
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\bin\Debug\netstandard2.0\BlazorRemoteLinq.Shared.pdb
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\obj\Debug\netstandard2.0\BlazorRemoteLinq.Shared.csprojAssemblyReference.cache
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\obj\Debug\netstandard2.0\BlazorRemoteLinq.Shared.AssemblyInfoInputs.cache
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\obj\Debug\netstandard2.0\BlazorRemoteLinq.Shared.AssemblyInfo.cs
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\obj\Debug\netstandard2.0\BlazorRemoteLinq.Shared.csproj.CoreCompileInputs.cache
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\obj\Debug\netstandard2.0\BlazorRemoteLinq.Shared.dll
+E:\Repositorios\BlazorRemoteLinq\BlazorRemoteLinq\BlazorRemoteLinq.Shared\obj\Debug\netstandard2.0\BlazorRemoteLinq.Shared.pdb

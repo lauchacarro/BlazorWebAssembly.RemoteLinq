@@ -1,0 +1,42 @@
+﻿@page "/Products"
+@inject IProductService ProductService
+
+<h3>Products</h3>
+
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nro</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.ProductCategory.Name</td>
+                    <td>$@product.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    private IEnumerable<BlazorRemoteLinq.Shared.Entities.Product> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetProducts();
+    }
+}
